@@ -1,0 +1,51 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(94, 106, 138);
+    margin: 0;
+}
+
+.kotak {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(17, 145, 145, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+.form-input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #383737;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #7392b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #6ca3dd;
+}
